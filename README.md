@@ -9,4 +9,4 @@ This repository documents my progress in C# through organized exercises, focusin
 ## Structure
 
 - `01-programming-logic`: programming fundamentals and language practice.
-- `02-oop`: object-oriented programming concepts and exercises (planned).
+- `02-oop`: object-oriented programming concepts and exercises.
