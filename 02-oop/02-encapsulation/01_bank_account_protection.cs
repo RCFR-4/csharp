@@ -1,21 +1,10 @@
-// Create a bank account with a private balance and public methods for deposits, withdrawals, and balance inquiries.
 
-Console.Write("Enter the account holder's name: ");
-string holderName = Console.ReadLine()!;
+// Create a bank account with a private balance. Perform validated deposits and withdrawals using public methods and display the final balance.
 
-Console.Write("Enter the initial balance: ");
-float initialBalance = float.Parse(Console.ReadLine()!);
+BankAccount account = new BankAccount("John", 500);
 
-Console.Write("Enter the deposit amount: ");
-float deposit = float.Parse(Console.ReadLine()!);
-
-Console.Write("Enter the withdrawal amount: ");
-float withdrawal = float.Parse(Console.ReadLine()!);
-
-BankAccount account = new BankAccount(holderName, initialBalance);
-
-Console.WriteLine(account.Deposit(deposit));
-Console.WriteLine(account.Withdraw(withdrawal));
+Console.WriteLine(account.Deposit(200));
+Console.WriteLine(account.Withdraw(150));
 
 Console.WriteLine("\n---- Account Information ----");
 Console.WriteLine($"\nAccount holder: {account.Holder}");

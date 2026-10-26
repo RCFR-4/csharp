@@ -1,15 +1,7 @@
-// Create a student class and display the student's name, age, and course.
 
-Console.Write("Enter the student's name: ");
-string name = Console.ReadLine()!;
+// Create a student class with a name, age, and course. Instantiate a student with predefined values and display the student's information.
 
-Console.Write("Enter the age: ");
-int age = int.Parse(Console.ReadLine()!);
-
-Console.Write("Enter the course: ");
-string course = Console.ReadLine()!;
-
-Student s = new Student(name, age, course);
+Student s = new Student("John", 20, "Software Engineering");
 
 Console.WriteLine("\n--- Student Information ---");
 Console.WriteLine($"Name: {s.Name}");

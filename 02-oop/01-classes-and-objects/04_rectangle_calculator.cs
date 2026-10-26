@@ -1,12 +1,7 @@
-// Create a rectangle class to calculate its area, perimeter, and whether it is a square.
 
-Console.Write("Enter the width: ");
-float width = float.Parse(Console.ReadLine()!);
+// Create a rectangle with predefined dimensions and calculate its area, perimeter, and whether it is a square.
 
-Console.Write("Enter the height: ");
-float height = float.Parse(Console.ReadLine()!);
-
-Rectangle r1 = new Rectangle(width, height);
+Rectangle r1 = new Rectangle(5, 3);
 
 Console.WriteLine("\n--- Rectangle Information ---");
 Console.WriteLine($"\nArea: {r1.CalculateArea():F2}");

@@ -1,25 +1,7 @@
-// Create two products, add five units to the first, and calculate their inventory values.
+// Create two products with predefined values, add five units to the first product, and display their updated inventory values.
 
-Console.Write("Enter the product name: ");
-string product1Name = Console.ReadLine()!;
-
-Console.Write("Enter the product price: ");
-float product1Price = float.Parse(Console.ReadLine()!);
-
-Console.Write("Enter the product quantity: ");
-int product1Quantity = int.Parse(Console.ReadLine()!);
-
-Console.Write("\nEnter the product name: ");
-string product2Name = Console.ReadLine()!;
-
-Console.Write("Enter the product price: ");
-float product2Price = float.Parse(Console.ReadLine()!);
-
-Console.Write("Enter the product quantity: ");
-int product2Quantity = int.Parse(Console.ReadLine()!);
-
-Product p1 = new Product(product1Name, product1Price, product1Quantity);
-Product p2 = new Product(product2Name, product2Price, product2Quantity);
+Product p1 = new Product("Mouse", 50, 3);
+Product p2 = new Product("Keyboard", 100, 2);
 
 p1.Quantity += 5;
 

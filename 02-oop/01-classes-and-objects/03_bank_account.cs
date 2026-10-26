@@ -1,22 +1,9 @@
-// Create a bank account, perform a deposit and withdrawal, and display the final balance.
+// Create a bank account with a predefined balance, perform a deposit and withdrawal, and display the final balance.
 
-Console.Write("Enter the account holder's name: ");
-string holderName = Console.ReadLine()!;
+BankAccount account = new BankAccount("John", 500);
 
-Console.Write("Enter the initial balance: ");
-float initialBalance = float.Parse(Console.ReadLine()!);
-
-BankAccount account = new BankAccount(holderName, initialBalance);
-
-Console.Write("Enter the deposit amount: ");
-float deposit = float.Parse(Console.ReadLine()!);
-
-account.Deposit(deposit);
-
-Console.Write("Enter the withdrawal amount: ");
-float withdrawal = float.Parse(Console.ReadLine()!);
-
-account.Withdraw(withdrawal);
+account.Deposit(200);
+account.Withdraw(150);
 
 Console.WriteLine($"Account holder: {account.Holder}");
 Console.WriteLine($"Balance: {account.Balance}");
