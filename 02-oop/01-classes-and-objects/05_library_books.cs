@@ -1,19 +1,7 @@
-// Create two books and manage their borrowing, returning, and availability.
+// Create two books with predefined information and manage their borrowing, returning, and availability.
 
-Console.Write("Enter the first book's title: ");
-string book1Title = Console.ReadLine()!;
-
-Console.Write("Enter the author's name: ");
-string book1Author = Console.ReadLine()!;
-
-Console.Write("Enter the second book's title: ");
-string book2Title = Console.ReadLine()!;
-
-Console.Write("Enter the author's name: ");
-string book2Author = Console.ReadLine()!;
-
-Book b1 = new Book(book1Title, book1Author);
-Book b2 = new Book(book2Title, book2Author);
+Book b1 = new Book("Dom Casmurro", "Machado de Assis");
+Book b2 = new Book("The Hobbit", "J. R. R. Tolkien");
 
 Console.WriteLine($"\n{b1.Borrow()}");
 Console.WriteLine($"{b1.Borrow()}");
