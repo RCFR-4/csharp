@@ -1,4 +1,3 @@
-
 // Create a shopping cart item with controlled quantity updates and a calculated total value.
 
 ShoppingCartItem item1 = new ShoppingCartItem("Mouse", 50, 3);

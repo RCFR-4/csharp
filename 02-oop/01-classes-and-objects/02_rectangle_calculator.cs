@@ -1,4 +1,3 @@
-
 // Create a rectangle with predefined dimensions and calculate its area, perimeter, and whether it is a square.
 
 Rectangle r1 = new Rectangle(5, 3);

@@ -1,4 +1,3 @@
-
 // Process card and Pix payments polymorphically using a shared payment array.
 
 CardPayment p1 = new CardPayment();

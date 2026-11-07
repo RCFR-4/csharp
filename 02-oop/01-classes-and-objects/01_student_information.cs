@@ -1,4 +1,3 @@
-
 // Create a student class with a name, age, and course. Instantiate a student with predefined values and display the student's information.
 
 Student s = new Student("John", 20, "Software Engineering");

@@ -3,10 +3,10 @@
 Console.Write("Enter a text: ");
 string t = Console.ReadLine()!;
 
-int tamanho = t.Length;
+int l = t.Length;
 
 Console.WriteLine();
-for (int i = tamanho - 1; i >= 0; i--)
+for (int i = l - 1; i >= 0; i--)
 {
     Console.Write($"{t[i]}");
 }

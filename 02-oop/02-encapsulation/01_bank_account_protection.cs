@@ -1,4 +1,3 @@
-
 // Create a bank account with a private balance. Perform validated deposits and withdrawals using public methods and display the final balance.
 
 BankAccount account = new BankAccount("John", 500);
